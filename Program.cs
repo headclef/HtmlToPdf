@@ -31,6 +31,12 @@ namespace HtmlToPdf_NetFramework
             var fileDirectory = methods.GetFileDirectory("Pdf Formats");
             var uploadDirectory = methods.GetFileDirectory("Uploads");
             if (methods.CanAccessFile(Path.Combine(fileDirectory, selectedFile + ".htm"))) methods.ConvertHtmlToPdf(fileDirectory, selectedFile, uploadDirectory);
+
+            /* Programın hemen kapanmaması istendiğinde bu yorum satırları deaktive edilebilir.
+            // 5. Adım: Programın hemen kapanmaması adına bir okuma işlemi koy.
+            Console.WriteLine("\n");
+            Console.ReadLine();
+            */
         }
     }
 }
