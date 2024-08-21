@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Pdf Formats\Invitation-1.htm" />
+    <Content Include="Pdf Formats\Invitation-2.htm" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Uploads\" />

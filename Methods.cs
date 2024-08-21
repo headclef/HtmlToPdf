@@ -47,7 +47,7 @@ namespace HtmlToPdf
         public string GetFileDirectory(string fileName)
         {
             string currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
-            string projectName = Assembly.GetExecutingAssembly().GetName().Name;
+            string projectName = "HtmlToPdf"; //Assembly.GetExecutingAssembly().GetName().Name;
             string solutionDirectory = FindSolutionDirectory(currentDirectory, projectName);
             string pdfFormatsDirectory = Path.Combine(solutionDirectory, fileName);
             return pdfFormatsDirectory;
