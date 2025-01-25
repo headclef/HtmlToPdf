@@ -1,7 +1,7 @@
 <!-- Başlık -->
 <div align = "center">
 	<h1>
-		🪐 HTML DOSYASINI PDF 'E ÇEVİRME OTOMASYONU 🪐
+		HTML DOSYASINI PDF 'E ÇEVİRME OTOMASYONU
 	</h1>
 </div>
 
